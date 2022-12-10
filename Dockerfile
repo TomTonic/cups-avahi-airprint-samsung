@@ -15,6 +15,7 @@ RUN echo -e "https://dl-cdn.alpinelinux.org/alpine/edge/testing\nhttps://dl-cdn.
 	ghostscript \
 	brlaser \
 	hplip \
+	printer-driver-splix \
 	avahi \
 	inotify-tools \
 	python3 \
