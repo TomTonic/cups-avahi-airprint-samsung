@@ -26,7 +26,7 @@ RUN echo -e "https://dl-cdn.alpinelinux.org/alpine/edge/testing\nhttps://dl-cdn.
 	wget \
 	rsync
 
-RUN	python3 -m ensurepip &&\
+RUN	python3 -m ensurepip \
 	&& pip3 --no-cache-dir install --upgrade pip \
 	&& pip3 install pycups \
 	&& rm -rf /var/cache/apk/*
